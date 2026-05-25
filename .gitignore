@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# User customizations (after running /customize-from-assessment)
+CLAUDE.md.backup-*
+voice-rules-backup-*.md
+assessment-output*.md
+
+# Universal Mode output (per-user)
+NIGHTSHIFT-RULES.md
+
+# Generated personal data — should never be committed
+**/personal-*
+**/my-*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS / temp
+*.log
+tmp/
+.tmp/

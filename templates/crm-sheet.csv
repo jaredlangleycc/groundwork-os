@@ -1,0 +1,2 @@
+contact_name,email,company,role,linkedin_url,stage,funnel_source,outbound_source,first_touch_date,last_touch_date,next_action,next_action_date,deal_value,deal_close_date,notes,attribution_utm_source,attribution_utm_campaign,referrer,landing_page,first_touch_at
+Sample Contact,sample@example.com,Acme Co,Founder,https://linkedin.com/in/sample,new,Organic,Inbound Form,2026-01-15,2026-01-20,Send proposal,2026-01-25,5000,2026-02-15,Met at conference; interested in 90-day engagement,linkedin,founder-newsletter,linkedin.com,/landing-page,2026-01-15T10:30:00Z

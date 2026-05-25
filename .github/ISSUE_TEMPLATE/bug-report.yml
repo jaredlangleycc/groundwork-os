@@ -1,0 +1,51 @@
+name: Bug Report
+description: Something in the plugin isn't working as expected
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Quick form so I can reproduce + fix.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did the bug happen?
+      options:
+        - Assessment website (nightshift.jaredlangley.cc)
+        - Claude Code plugin (a specific skill)
+        - Universal Mode (build-universal-rules.sh script)
+        - Install / clone / setup
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: skill-name
+    attributes:
+      label: If a skill, which one?
+      placeholder: e.g., customize-from-assessment
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Be specific. What did you run? What did you expect? What did you get?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+  - type: input
+    id: claude-version
+    attributes:
+      label: Claude Code version
+      placeholder: e.g., 2.0.x (run `claude --version`)
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: macOS 15.x / Ubuntu 24.04 / Windows 11

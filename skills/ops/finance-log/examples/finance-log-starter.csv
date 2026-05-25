@@ -1,0 +1,23 @@
+date,type,category,vendor,amount,currency,note,tags
+2026-05-01,expense,email,Microsoft 365,6.00,USD,Business Basic seat,monthly,subscription
+2026-05-01,expense,software,HubSpot,20.00,USD,Starter SKU,monthly,subscription
+2026-05-01,expense,software,MailerLite,0.00,USD,free tier under 1000 subs,monthly,subscription
+2026-05-01,expense,software,Cal.com,0.00,USD,free tier,monthly,subscription
+2026-05-01,expense,hosting,Cloudflare,0.00,USD,Pages free tier,monthly,subscription
+2026-05-01,expense,hosting,Namecheap,12.00,USD,domain renewal example.com,annual,subscription
+2026-05-01,expense,software,Anthropic,20.00,USD,Claude Pro,monthly,subscription
+2026-05-02,refund,software,Calendly,10.00,USD,prorated refund after Cal.com migration,one-time
+2026-05-05,income,client,Client A,1500.00,USD,Flagship mo 1 of 3,client-payment,paid
+2026-05-05,income,client,Client B,1500.00,USD,Flagship mo 1 of 3,client-payment,paid
+2026-05-07,expense,software,Canva,0.00,USD,free tier,monthly,subscription
+2026-05-08,expense,marketing,LinkedIn Ads,0.00,USD,not yet active,monthly,subscription
+2026-05-10,expense,equipment,Apple,89.00,USD,replacement AirPods,one-time
+2026-05-12,expense,education,Newsletter subscription,5.00,USD,industry weekly,monthly,subscription
+2026-05-15,expense,software,Apify,0.00,USD,free credits,monthly,subscription
+2026-05-17,income,client,Client C,750.00,USD,one-off coaching pkg,client-payment,paid
+2026-05-18,expense,software,Typefully,12.00,USD,Pro plan,monthly,subscription
+2026-05-19,expense,software,Buffer,15.00,USD,Essentials plan,monthly,subscription
+2026-05-20,expense,bank,Stripe,15.00,USD,processing fees,monthly,one-time
+2026-05-21,expense,legal,Stripe Atlas,0.00,USD,annual maintenance free this year,annual,subscription
+2026-05-22,expense,software,Resend,0.00,USD,free tier under 3k emails,monthly,subscription
+2026-05-23,expense,office,Coffee shop,12.00,USD,Saturday morning writing session,one-time

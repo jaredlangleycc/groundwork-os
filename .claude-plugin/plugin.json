@@ -1,0 +1,25 @@
+{
+  "name": "nightshift-os",
+  "version": "0.1.0",
+  "description": "The 1-person business OS for Claude Code. A business coach baked into your AI: marketing, sales, brand, ops, finance — shaped by your stage, voice, and risk profile. Built free-first, revenue-mapped, family-floor first.",
+  "author": {
+    "name": "Jared Langley",
+    "email": "hello@jaredlangley.cc",
+    "url": "https://jaredlangley.cc"
+  },
+  "homepage": "https://nightshift.jaredlangley.cc",
+  "repository": "https://github.com/jaredlangleycc/nightshift-os",
+  "license": "MIT",
+  "keywords": [
+    "solopreneur",
+    "one-person-business",
+    "business-coach",
+    "marketing",
+    "sales",
+    "brand",
+    "voice",
+    "claude-code",
+    "small-business",
+    "founder"
+  ]
+}

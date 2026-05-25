@@ -1,0 +1,24 @@
+title: "[Show & Tell] "
+labels: ["show-and-tell"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share what you've built or shipped with NightShiftOS. The more concrete, the more useful for other working-parent solopreneurs.
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you build or ship?
+      placeholder: "A landing page, a sales sequence, a 90-day plan that actually worked..."
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: Which skill(s) helped?
+      placeholder: "customize-from-assessment → revenue-mapper → outreach-drafter..."
+  - type: textarea
+    id: what-changed
+    attributes:
+      label: What changed in your business or week?
+      placeholder: "I finally shipped X / cut Y tool / had my first weeknight back / closed first $$$ client..."

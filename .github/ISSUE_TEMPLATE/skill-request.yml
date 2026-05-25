@@ -1,0 +1,63 @@
+name: Skill Request
+description: Suggest a new skill or a Phase 2 skill to prioritize
+title: "[Skill] "
+labels: ["skill-request", "phase-2"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing what would make NightShiftOS more useful for you. The more concrete, the better.
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill name
+      description: kebab-case, e.g., `weekly-time-audit` or `tax-prep`
+      placeholder: my-skill-name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Which category?
+      options:
+        - Coach posture
+        - Sales
+        - Marketing
+        - Brand
+        - Product + offer
+        - Ops + finance
+        - Business posture
+        - Onboarding
+        - New category (specify below)
+    validations:
+      required: true
+  - type: textarea
+    id: trigger
+    attributes:
+      label: What would trigger this skill?
+      description: What would the user say or do that should invoke it? Be specific. Phrases, contexts, situations.
+      placeholder: "When the user asks to..."
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: A specific scenario from your business
+      description: Tell me about an actual moment in your work where this skill would have helped. Real situations beat hypothetical.
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Your current stage
+      options:
+        - Pre-revenue
+        - Under $5K MRR
+        - $5K-$25K MRR
+        - Over $25K MRR
+        - Not running a business yet
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: Optional. Examples, references, similar tools that do this well.

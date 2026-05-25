@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Take the assessment
+    url: https://nightshift.jaredlangley.cc/nightshift-os/assessment
+    about: New here? Start with the 12-section assessment to customize the OS to you.
+  - name: GitHub Discussions
+    url: https://github.com/jaredlangleycc/nightshift-os/discussions
+    about: Questions, use-case sharing, or general "how do you handle X?" conversations.
+  - name: Side-Hustle Sunday newsletter
+    url: https://nightshift.jaredlangley.cc
+    about: Weekly content for working parents building on the side. Free, no spam, unsubscribe anytime.

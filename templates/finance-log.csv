@@ -1,0 +1,7 @@
+date,type,category,description,amount,recurring,notes
+2026-01-01,expense,tool,Cloudflare Pages,0,monthly,Free tier
+2026-01-01,expense,tool,MailerLite,0,monthly,Free tier <1000 subs
+2026-01-01,expense,tool,Cal.com,0,monthly,Free tier
+2026-01-01,expense,tool,Google Workspace,6,monthly,Single user
+2026-01-15,revenue,client_work,Client retainer,4500,one_time,Paid upfront 3-month engagement
+2026-01-20,expense,subscription,LinkedIn Premium,30,monthly,Sales Navigator

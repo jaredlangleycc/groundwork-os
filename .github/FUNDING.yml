@@ -1,0 +1,11 @@
+# NightShiftOS funding configuration.
+#
+# When GitHub Sponsors is approved (post-stars), uncomment the github line.
+# Add buy_me_a_coffee or others as bridge options if desired.
+#
+# Format reference: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+#
+# github: [jaredlangleycc]
+# buy_me_a_coffee: jaredlangley
+# polar: jaredlangleycc
+# custom: ['https://jaredlangley.cc']

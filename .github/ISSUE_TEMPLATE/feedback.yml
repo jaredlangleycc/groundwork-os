@@ -1,0 +1,53 @@
+name: Feedback / Use Case
+description: Share how you're using NightShiftOS, what's working, what isn't
+title: "[Feedback] "
+labels: ["feedback", "use-case"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the most valuable thing you can share with me. How are you actually using the OS? What hits, what misses, what's missing? Goes straight into Phase 2 planning.
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Your current stage
+      options:
+        - Pre-revenue (still building the offer)
+        - Under $5K MRR
+        - $5K-$25K MRR
+        - Over $25K MRR
+        - Not running a business yet, exploring
+    validations:
+      required: true
+  - type: dropdown
+    id: situation
+    attributes:
+      label: Your situation
+      options:
+        - Working parent with a 9-5, building on the side
+        - Full-time solopreneur
+        - Between jobs, building this as my next thing
+        - Side project, not necessarily a business
+        - Other (specify below)
+    validations:
+      required: true
+  - type: textarea
+    id: working
+    attributes:
+      label: What's working
+      description: Skills, principles, workflows that are helping you ship.
+  - type: textarea
+    id: not-working
+    attributes:
+      label: What's not working
+      description: Friction points, broken assumptions, things that miss for your situation.
+  - type: textarea
+    id: gap
+    attributes:
+      label: What's missing
+      description: Skills, workflows, integrations you wish existed.
+  - type: input
+    id: contact
+    attributes:
+      label: How can I reach you for follow-up (optional)
+      description: Email or @-handle if you're open to a 15-min conversation about your use case.
